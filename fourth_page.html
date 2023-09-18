@@ -83,7 +83,32 @@
                 <h2><u id ="5">Question 15</u></h2>
                     <p>How satisfied are you with the availability of financial aid resources at your college?</p>
                     
-                   <!--Slide bar??-->
+                   <form>
+                <ul>
+                    <li>Unsatisfied</li>
+                    <li>Satisfied</li>
+                    <li>Very Satisfied</li>
+                    <textarea>Type answer here</textarea>
+                </ul>
+            </form>
+            <h1>How satisfied are you?</h1>
+
+            <input type="range" min="0" max="2" step="1" id="satisfactionSlider">
+
+            <p>Your Satisfaction Level: <span id="satisfactionLevel">0</span></p>
+
+            <script>
+                const satisfactionSlider = document.getElementById("satisfactionSlider");
+                const satisfactionLevel = document.getElementById("satisfactionLevel");
+
+                // Event listener to update the satisfaction level when the slider value changes
+                satisfactionSlider.addEventListener("input", function () {
+                    satisfactionLevel.textContent = satisfactionSlider.value;
+                });
+            </script>
+            <br>
+            <br>
+    </font>
         
                 <br>
                 <br>
