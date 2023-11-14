@@ -5,17 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Page 2</title>
 		<link rel="stylesheet" type="text/css" href="../style/style.css">
+		<style>
+			.columns {
+				column-count: 2;
+			}
+		</style>
 </head>
 
 <body>
+	
+<center><img src="../public/PVAMU.png"
+width="10%">
+</center>
 	<font color = #FFCC33>
 	<body bgcolor="#330066">
 		<center><h1><u>Panther Survey</u></h1></center>
-		<center><img  src="https://github.com/lstarks1513/WDMSurveyProject/blob/main/PVAMU.png?raw=true" width="400" height="300" alt="PVAMU"  ></center>
+		<center><img src="../public/Banner1.png" alt="PVAMU" 
+			width="15% " ></center>
 		<table border="1"
 					align="Right">
 				<tr>
-					<th>Questions</font></th>
+					<th>Questions</th>
 				</tr>
 				<tr>
 					<td><a href="#1">Questions 1</a></td>
@@ -35,92 +45,100 @@
 				
 
 			</table>
-
-			<h4>General information</h4>
+			<div class="columns">
+			<u><h1>General information</h1></u>
 			<h2><u id ="1">Question 1</u></h2>
 					<p>How do you identify your ethnicity or race?</p>
 					
-					<! - - Ellie's Code - - !>
+					
+					<form>
 				<input type="radio" name="question1" id="question1-Chem.Eng" value="Chemical Engineering">
-				<label for="question1-F">Caucasian</label><p>
+				<label for="question1-F">Caucasian</label>
 
 				<input type="radio" name="question1" id="question1-Soph" value="Sophmore">
 				<label for="question1-Sophmore">African American</label><p>
 
 				<input type="radio" name="question1" id="question1-CS" value="Junior">
-				<label for="question1-J">Hispanic/Latino</label><p>
+				<label for="question1-J">Hispanic/Latino</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Senior">
-				<label for="question1-Senior">Asain</label><p>
+				<label for="question1-Senior">Asain</label>
 
 				<input type="radio" name="question1" id="question1-EE" value="Graduate Student">
-				<label for="question1-GS"> Other</label><p>
+				<label for="question1-GS"> Other</label>
+					</form>
 
 					<h2><u id ="2">Question 2</u></h2>
 					<p>Language Spoken at Home?</p>
 					<input type="text" name="textbox">
-
+					</form>
 
 					<h2><u id ="3">Question 3</u></h2>
 					<p>What is your current marital status?</p>
 					
-					<! - - Ellie's Code - - !>
+				<form>
 				<input type="radio" name="question1" id="question1-Chem.Eng" value="Chemical Engineering">
-				<label for="question1-F">Single</label><p>
+				<label for="question1-F">Single</label>
 
 				<input type="radio" name="question1" id="question1-Soph" value="Sophmore">
-				<label for="question1-Sophmore">Married</label><p>
+				<label for="question1-Sophmore">Married</label>
 
 				<input type="radio" name="question1" id="question1-CS" value="Junior">
-				<label for="question1-J">Divorced</label><p>
+				<label for="question1-J">Divorced</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Senior">
-				<label for="question1-Senior">Widowed</label><p>
+				<label for="question1-Senior">Widowed</label>
 
 				<input type="radio" name="question1" id="question1-EE" value="Graduate Student">
-				<label for="question1-GS"> Seperated</label><p>
+				<label for="question1-GS"> Seperated</label>
+				</form>
 
 		<h2><u id ="4">Question 4</u></h2>
 			<p>What year are you in College?</p>
 
-				<! - - Ellie's Code - - !>
+				
+				<form>
 				<input type="radio" name="question1" id="question1-Chem.Eng" value="Chemical Engineering">
-				<label for="question1-F">Freshmen</label><p>
+				<label for="question1-F">Freshmen</label>
 
 				<input type="radio" name="question1" id="question1-Soph" value="Sophmore">
-				<label for="question1-Sophmore">Sophmore</label><p>
+				<label for="question1-Sophmore">Sophmore</label>
 
 				<input type="radio" name="question1" id="question1-CS" value="Junior">
-				<label for="question1-J">Junior</label><p>
+				<label for="question1-J">Junior</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Senior">
-				<label for="question1-Senior">Senior</label><p>
+				<label for="question1-Senior">Senior</label>
 
 				<input type="radio" name="question1" id="question1-EE" value="Graduate Student">
-				<label for="question1-GS">Graduate Student</label><p>
+				<label for="question1-GS">Graduate Student</label>
+				</form>
 
 		<h2><u id ="5">Question 5</u></h2>
 			<p> What is your current college major or program of study?</p>
 
-				<! - - Ellie's Code - -  - - - - - - - ->
+				
+				<form>
 				<input type="radio" name="question1" id="question1-CS" value="Computer Science">
-				<label for="question1-CS">Computer Science</label><p>
+				<label for="question1-CS">Computer Science</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Computer Engineering">
-				<label for="question1-Comp.Eng">Computer Engineering</label><p>
+				<label for="question1-Comp.Eng">Computer Engineering</label>
 
 				<input type="radio" name="question1" id="question1-EE" value="Electrical Engineering">
-				<label for="question1-EE">Electrical Engineering</label><p>
+				<label for="question1-EE">Electrical Engineering</label>
 
 				<input type="text" name="question1" id="question1-other" value="">
-				<label for="question1-other">Other</label><p>
-
- 		
+				<label for="question1-other">Other</label>
+				</form>
+ 		</div>
+		
 		<br>
 		<br>
-			<a href="index.html"><button>Previous</button></a>
-			
+		<br>
+		<a href="index.html"><button>Previous</button></a>
 			<a href="third_page.html"><button>Next</button></a>
+
 	</font>	
 		
 </body>
