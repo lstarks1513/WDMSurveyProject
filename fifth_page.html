@@ -1,17 +1,27 @@
 <!--______ Page-->
 <!DOCTYPE html>
 <html>
-<header>
+<head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fifth Page</title>
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
+    <style>
+        .columns {
+            column-count: 2;
+        }
+    </style>
 </header>
 <body>
     <font color = #FFCC33>
         <body bgcolor="#330066">
+
+            <center><img src="../public/PVAMU.png"
+                width="10%">
+                </center>
+                
             <center><h1><u>Panther Survey</u></h1></center>
-			<center><img  src="https://github.com/lstarks1513/WDMSurveyProject/blob/main/PantherStatue.jpg?raw=true" alt="PVAMU" width="400" height="150"></center>
+			<center><img  src="../public/Banner4.png" alt="PVAMU" width="15%"></center>
 
             <table border="1" align="Right" >
                     <tr>
@@ -33,64 +43,70 @@
                         <td><a href="#5">Questions 20</a></td>
                     </tr>
                 </table>
-
-                <h4>Involvement</h4>
+                <div class="columns">
+                    <u><h1>Involvement</h1></u>
                     <h2><u id ="1">Question 16</u></h2>
 			<p> Have you participated in any alumni-related events or activities organized by your college?</p>
 				
-				
+			<form>	
 				<input type="radio" name="question1" id="question1-CS" value="Yes">
-				<label for="question1-Yes">Yes</label><p>
+				<label for="question1-Yes">Yes</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Yes">
-				<label for="question1-No">No</label><p>
+				<label for="question1-No">No</label>
+            </form>
 
                     <h2><u id ="2">Question 17</u></h2>
 			<p> What has been your most valuable piece of advice or insight you received?</p>
-				<textarea> </textarea>
+            <input type="text" name="textbox">
+            <br>
+            <br>
 
                     <h2><u id ="3">Question 18</u></h2>
 			<p> Do you use any online platforms for networking and staying connected to your college? If yes, please describe...</p>
 				
-				
+			<form>	
 				<input type="radio" name="question1" id="question1-CS" value="Yes">
-				<label for="question1-Yes">Yes</label><p>
-                        <textarea> </textarea>
-                    <br>
+				<label for="question1-Yes">Yes</label>
+                <input type="text" name="textbox">
+                
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Yes">
-				<label for="question1-No">No</label><p>
+				<label for="question1-No">No</label>
+            </form>
 
                     <h2><u id ="4">Question 19</u></h2>
 			<p> Have you considered or taken advantage of internship oppurtunties to your major?</p>
 				
-				
+			<form>	
 				<input type="radio" name="question1" id="question1-CS" value="Yes">
-				<label for="question1-Yes">Yes</label><p>
+				<label for="question1-Yes">Yes</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Yes">
 				<label for="question1-No">No</label><p>
-
+                </form>
                     <h2><u id ="5">Question 20</u></h2>
 			<p>How actively do you seek networking opportunities with other proessionals in your field of study?</p>
-	
+                
+            <form>
 				<input type="radio" name="question1" id="question1-CS" value="Yes">
-				<label for="question1-Yes">Very Actively</label><p>
+				<label for="question1-Yes">Very Actively</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Yes">
-				<label for="question1-No">Actively</label><p>
+				<label for="question1-No">Actively</label>
 
                     <input type="radio" name="question1" id="question1-CS" value="Yes">
-				<label for="question1-Yes">occasionally</label><p>
+				<label for="question1-Yes">occasionally</label>
 
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Yes">
-				<label for="question1-No">Rarely</label><p>
-            
+				<label for="question1-No">Rarely</label>
+            </form>
+                </div>
             <br>
             <br>
                 <a href="fourth_page.html"><button>Previous</button></a>
                 
                 <a href="last_page.html"><button>Submit</button></a>
         </font>	
-</form>        
+                
 </body>
 </html>
