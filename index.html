@@ -7,34 +7,48 @@
 	<title>Homepage</title>
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
 	
+	<style>
+		.columns {
+			column-count: 2;
+		}
+	</style>
 </head>
 
 <body>
-
+	<body id="homepage">
 <!--Purple Background Color. - Fernando-->
 <body bgcolor="#330066">
-
+<font color="#FFCC33">
 		<center>
 			<!--Lvl 1 Main header. - Fernando-->
-			<h1><font color = #FFCC33>Panther Survey</font></h1>
+			<h1>Panther Survey</h1>
 
 			<!--Adds horizontal line. - Fernando-->
 			<hr>
 
 			<!--Lvl 2 Sub header. - Fernando-->
+			<div class="columns">
+			<h2>Welcome!</h2>
 			<h2><font color = #FFCC33>Welcome to our Survey</font></h2>
-			<img class="one" src="https://github.com/lstarks1513/WDMSurveyProject/blob/main/prairie-view-am-logo.png?raw=true" alt="PVAMU" width="180" height="150">
+			<img class="one" src="../public/Praire View Logo.jpeg" alt="PVAMU" width="180" height="150">
 
 			<!--Intro text to survey. - Fernando-->
-			<p>
-				<font color = #FFCC33>
-				We greatly appreciate your participation in this survey, as your insights and experience are invaluable to us. Your feedback will help us understand and improve various aspects of college life, academic programs, and campus resources
-				Your honest responses will remain confidential and will be used solely for research and getting a grade in Professor Daniel's Web Design class.<br>
-
+			<p>We greatly appreciate your participation in this survey, as your insights and experience are invaluable to us. Your feedback will help us understand and improve various aspects of college life, academic programs, and campus resources
+				Your honest responses will remain confidential and will be used solely for research and getting a grade in Professor Daniel's Web Design class.</p>
+		
+				<p>The survey will go over:</p>
+				
+					<ol>
+							<li>General Information</li>
+							<li>College Life</li>
+							<li>Financial Matters</li>
+							<li>Involvement</li>
+						</ol>
+				
 				Please Fill out the information below to get started.
-				</font><br>
+				<br>
 			</p>
-
+		
 			<table>
 				<tr>
 					<td >
@@ -73,12 +87,14 @@
 					</td>
 				</tr>
 			</table>
-			
-<a href="second_page.html">
+			</div>
+<a href="../pages/second_page.html">
 	<div class="input-container">
 		<button class="continue-button" id="submitButton">Continue</button>
 	</div>
 </a>
+<img src="../public/prairie-view-am-logo.png"
+width="25%">
 
 </body>
 <script src="scripts/script.js"></script>
