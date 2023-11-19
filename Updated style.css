@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    background-color: #330066;
+    color: #FFCC33;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    color: #FFCC33;
+}
+
+/* Page Specific Styles */
+/* Homepage Styles */
+#homepage {
+    text-align: center;
+}
+
+#homepage h1 {
+    font-size: 24px;
+}
+
+#homepage p {
+    margin: 20px;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="phone"],
+input[type="date"] {
+    background-color: #F1E5AC;
+    padding: 5px;
+    border: 1px solid #FFCC33;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.continue-button {
+    background-color: #FFCC33;
+    color: #330066;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Page 2 Styles */
+/* Add styles for Page 2 as needed */
+
+/* Page 3 Styles */
+/* Add styles for Page 3 as needed */
+
+/* Fourth Page Styles */
+/* Add styles for the Fourth Page as needed */
+
+/* Last Page Styles */
+/* Add styles for the Last Page as needed */
+
+
+/* Center the heading */
+.survey-heading {
+	text-align: center;
+}
+
+/* Style the welcome text */
+.welcome-text {
+	margin: 20px;
+	text-align: center;
+}
+
+.helper-text {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style the input container */
+.input-container {
+	text-align: center;
+	margin: 20px;
+}
+
+/* Style the input fields */
+.name-input,
+.date-input {
+	width: 200px;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+/* Style the Continue button */
+.continue-button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* style to change hyperlink colors*/
+a:link
+{
+	color:lightblue ;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* style to change visited hyperlink colors*/
+a:visited
+{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* style to change hyperlink colorswhen overing the mouse over them*/
+a:hover 
+{
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
